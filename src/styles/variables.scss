@@ -1,0 +1,28 @@
+// font-sizes & sizes
+
+$medium-fs: 1rem;
+$high-medium-fs: 1.071428571428571rem;
+$large-fs: 1.285714285714286rem;
+$huge-fs: 2.142857142857143rem;
+
+$card-width: 21.42857142857143rem;
+$card-img-height: 11.42857142857143rem;
+$max-size-width: 85.71428571428571rem;
+$min-size-width: 28.57142857142857rem;
+$header-height: 3.571428571428571rem;
+
+$estimate-position: 0.6428571428571429rem;
+
+
+// box-shadow
+
+$box-shadow-card: 0 1rem 2rem rgba(0,0,0,0.25), 0 .7142857142857143rem .7142857142857143rem rgba(0,0,0,0.22);
+
+// colors & gradients
+
+$dark-gray: #7A7A7A;
+$light-gray: #83cc89; 
+
+$header-gradient: radial-gradient(circle, rgba(85,148,218,1) 0%, rgba(0,212,255,1) 30%);
+$header-background: rgb(85,148,218);
+$header-icon-color: #448ddf;

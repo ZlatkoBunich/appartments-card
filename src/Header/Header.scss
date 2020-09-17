@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.header {
+  align-items: center;
+  background: $header-background;
+  background: $header-gradient;
+  display: flex;
+  height: $header-height;
+  min-width: $min-size-width;
+  justify-content: center;
+
+  &__icon {
+    color: $header-icon-color;
+    font-size: $huge-fs;
+  }
+}

@@ -1,0 +1,55 @@
+@import '../styles/variables.scss';
+
+.card {
+  box-shadow: $box-shadow-card;
+  position: relative;
+  margin: 0 .7142857142857143rem .7142857142857143rem 0;
+  overflow: hidden;
+  width: $card-width;
+  padding: 0 0 $card-img-height 0;
+}
+
+.card-info {
+  padding: 1.428571428571429rem .7142857142857143rem .7142857142857143rem .7142857142857143rem;
+
+  &__title {
+    font-size: $high-medium-fs;
+    font-weight: bold;
+    margin: .5rem 0 .8571428571428571rem 0;
+    text-align: center;
+  }
+
+  &__item {
+    margin: 0 0 .5rem 0;
+  }
+
+  &__item-info {
+    font-style: italic;
+    overflow-wrap: break-word;
+  }
+
+  &__estimate {
+    cursor: pointer;
+    color: $dark-gray;
+    font-size: $large-fs;
+    position: absolute;
+    top: $estimate-position;
+    right: $estimate-position;
+    
+    
+    &_active,
+    &:hover {
+      color: $light-gray;
+    }
+  }
+}
+
+.card-pic {
+  background: url('/imgs/appartment.jpg') center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  height: $card-img-height;
+  width: 100%;
+}

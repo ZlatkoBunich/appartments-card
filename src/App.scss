@@ -1,0 +1,19 @@
+@import './styles/variables.scss';
+
+html, body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.appartments-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: $max-size-width;
+  min-width: $min-size-width;
+  padding: 2rem 0 0 0;
+  margin: 0 auto;
+}
+
